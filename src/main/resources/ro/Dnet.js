@@ -71,6 +71,7 @@ dnet.Translation = {
 		imp_dp_loc: "Locaţie fişier",
 		imp_dp_success: "Import executat cu succes",
 		imp_dp_title: "Import pachet date",
+		keyshortcut_title: "Taste funcţionale",
 		login_btn: "Conectare",
 		login_client: "Client",
 		login_lang: "Limbă",
@@ -147,6 +148,23 @@ dnet.Translation = {
 		validTo: "Valabil până la",
 		version: "Versiune"
 	},
+	keyshortcut : {
+		desc: "Acţiunile se execută in contextul componentei focalizate sau in in contextul blocului de date principal",
+		doCancel: "Anulează modificările",
+		doClearQuery: "Sterge condiţiile de filtrare",
+		doCopy: "Copiază înregistrarea curentă",
+		doDelete: "Şterge înregistrările selectate",
+		doEditIn: "Intrare in mod actualizare date",
+		doEditOut: "Ieşire din mod actualizare date",
+		doEnterQuery: "Activează formularul de filtrare",
+		doNew: "Crează înregistrare nouă",
+		doQuery: "Interoghează baza de date",
+		doSave: "Salvează modificările",
+		nextPage: "Încarcă următoarea pagină de date",
+		nextRec: "Încarcă înregistrarea următoare",
+		prevPage: "Încarcă pagina de date anterioară",
+		prevRec: "Încarcă înregistrarea anterioară"
+	},
 	msg : {
 		AT_FIRST_PAGE: "La prima pagină.",
 		AT_FIRST_RECORD: "La prima înregistrare disponibilă.",
@@ -190,13 +208,13 @@ dnet.Translation = {
 	},
 	tlbitem : {
 		autoload__lbl: "Auto",
-		autoload__tlp: "Activează modul `auto` pentru incărcare automată a dependintelor.",
+		autoload__tlp: "Activează modul `auto` pentru incărcare automată a dependintelor",
 		back__lbl: "Înapoi",
 		back__tlp: "Înapoi",
 		cancel__lbl: "Anulează",
-		cancel__tlp: "Anulează modificările.",
+		cancel__tlp: "Anulează modificările",
 		clearFilter__lbl: "Sterge filtru",
-		clearFilter__tlp: "Sterge filtru.",
+		clearFilter__tlp: "Sterge filtru",
 		close__lbl: "Închide",
 		close__tlp: "Închide",
 		copy__lbl: "Copiază",
@@ -206,9 +224,9 @@ dnet.Translation = {
 		delete_selected__lbl: "Şterge",
 		delete_selected__tlp: "Şterge înregistrările selectate",
 		edit__lbl: "Modifică",
-		edit__tlp: "Afisează formularul de modificare.",
+		edit__tlp: "Afisează formularul de modificare",
 		load__lbl: "Filtrează",
-		load__tlp: "Încarcă înregistrările care corespund criteriilor de filtrare specificate.",
+		load__tlp: "Încarcă înregistrările care corespund criteriilor de filtrare specificate",
 		new__lbl: "Crează",
 		new__tlp: "Crează înregistrare nouă",
 		next_rec__lbl: "Următor",
@@ -218,6 +236,6 @@ dnet.Translation = {
 		prev_rec__lbl: "Anterior",
 		prev_rec__tlp: "Încarcă înregistrarea anterioară din cele selectate sau cea anterioră disponibilă dacă nu există selecţie multiplă",
 		save__lbl: "Salvează",
-		save__tlp: "Salvează modificările."
+		save__tlp: "Salvează modificările"
 	}
 };
